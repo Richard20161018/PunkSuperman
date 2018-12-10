@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 只需配置好 log.dir 和 projectname 属性-->
 <configuration debug="false">
-	<property name="log.dir" value="/root/myproject/log" />
+	<property name="log.dir" value="/root/myprojects/" />
 	<property name="projectname" value="za-dm-health" />
 	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
 		<target>System.out</target>

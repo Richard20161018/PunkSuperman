@@ -2,3 +2,8 @@ server:
   port: 80
 logging:
   config: classpath:logback.xml
+spring:
+  mvc:
+    view:
+      prefix: classpath:/templates/
+      suffix: .html
